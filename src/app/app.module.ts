@@ -1,22 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
 import { AppComponent } from './app.component';
-import { AccountComponent } from './account/account.component';
 import { NewAccountComponent } from './new-account/new-account.component';
-
+import { AccountsComponent } from './accounts/accounts.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    AccountComponent,
-    NewAccountComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent, NewAccountComponent, AccountsComponent],
+  imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
