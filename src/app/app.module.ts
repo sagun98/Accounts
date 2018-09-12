@@ -3,10 +3,10 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NewAccountComponent } from './new-account/new-account.component';
-import { AccountsComponent } from './accounts/accounts.component';
+import { AccountComponent } from './account/account.component';
 
 @NgModule({
-  declarations: [AppComponent, NewAccountComponent, AccountsComponent],
+  declarations: [AppComponent, NewAccountComponent, AccountComponent],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent]
